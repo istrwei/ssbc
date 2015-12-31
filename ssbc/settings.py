@@ -117,13 +117,13 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'www/static')
 
 # Email
 EMAIL_HOST = 'smtp.mailgun.org'
-EMAIL_HOST_USER = 'postmaster@cilibaba.com'
+EMAIL_HOST_USER = 'postmaster@9j4j.com'
 EMAIL_HOST_PASSWORD = 'you_need_to_set_this_in_deployment.py'
-DEFAULT_FROM_EMAIL = 'CiLiBaBa <noreply@cilibaba.com>'
+DEFAULT_FROM_EMAIL = '9j4j <noreply@9j4j.com>'
 EMAIL_USE_SSL = True
 EMAIL_PORT = 465
-SERVER_EMAIL = 'server@cilibaba.com'
-ADMINS = (('Xiaoxia', 'test@test.com'),)
+SERVER_EMAIL = 'server@9j4j.com'
+ADMINS = (('strwei', 'admin@strwei.com'),)
 
 
 HOME_URL = ''
